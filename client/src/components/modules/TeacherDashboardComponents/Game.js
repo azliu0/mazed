@@ -250,7 +250,7 @@ const Game = (props) => {
         </div>
       ))
     );
-  }, []);
+  }, [mostMissed]);
 
   const [showing, setShowing] = useState(false);
   return (
